@@ -34,7 +34,7 @@
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
   --bs-danger: #dc3545;
-  --bs-light: #f8f9fa;
+  --bs-light: #0270dd;
   --bs-dark: #212529;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
@@ -79,9 +79,10 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: rgb(36, 36, 60);
-  background-image: url(../img/background.png);
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  
+  background-image:url("../../../img/background.png");
+  ;
+   
 }
 
 hr {
@@ -312,6 +313,7 @@ th {
   text-align: inherit;
   text-align: -webkit-match-parent;
 }
+
 
 thead,
 tbody,
